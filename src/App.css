@@ -1,22 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+hr{
+  border: 1px solid lightgray;
+  border-left-width: 1250px;
 }
+
+.articleCard{
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+    .article-date{
+    flex: 0 0 15%;
+    color: grey
+    }
+
+    .article-content{
+    flex: 0 0 50%;
+    margin-left: 10px;
+    }
+
+    h5{ color: grey}
+
+    .article-image{
+    flex: 0 0 35%;
+    margin-left: 50px;
+    }
+
+    img{ 
+      width: 280px;
+      height: 200px;
+      margin-top: 20px;
+    }
